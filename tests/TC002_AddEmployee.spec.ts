@@ -1,5 +1,5 @@
 import {test} from '@playwright/test';
-import {general} from '../lib/general';
+import {general} from '../lib/General';
 test('TC002_AddEmployee', async({page})=> {
 //Test Steps
 const gen = new general(page);

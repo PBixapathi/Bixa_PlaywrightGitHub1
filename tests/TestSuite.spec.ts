@@ -1,5 +1,5 @@
 import {test} from '@playwright/test';
-import {general} from '../lib/general';
+import {general} from '../lib/General';
 
 test.describe('Test Suite for Project2', ()=> {
     test('TC001_Login_Logout', async({page})=> {

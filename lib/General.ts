@@ -1,5 +1,5 @@
 //To provide all Re-Usable methods / functions related to entire application
-import {global} from './global';
+import {global} from './Global';
 
 export class general extends global {
 //User defined functions
