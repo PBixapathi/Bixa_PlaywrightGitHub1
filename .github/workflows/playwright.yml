@@ -21,11 +21,9 @@ jobs:
       run: npx playwright test TestSuite.spec.ts
     - name: Run allure reports
       run: npx allure generate allure-results --clean
-    - name: Run allure results
-      run: npx allure open
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
-        name: allure-results
-        path: allure-results
+        name: allure-report
+        path: allure-report
         retention-days: 30
